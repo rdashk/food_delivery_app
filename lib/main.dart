@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/pages/food/popular_food_detail.dart';
+import 'package:food_delivery_app/pages/food/recommended_food_detail.dart';
 import 'package:food_delivery_app/pages/home/main_food_page.dart';
 import 'package:get/get.dart';
+import 'helper/dependencies.dart' as dep;
 
-void main() {
+Future<void> main() async {
+  // link between Dart Layer and Flutter Engine before run method
+  WidgetsFlutterBinding.ensureInitialized();
+  await dep.init();
   runApp(const MyApp());
 }
 
@@ -19,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: PopularFoodDetail(),
+      home: RecommendedFoodDetail(),
     );
   }
 }
