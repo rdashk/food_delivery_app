@@ -119,7 +119,7 @@ class _FoodPageBodyState extends State<FoodPageBody> {
                           color: Colors.white38,
                           image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: AssetImage("images/food0.jpg"))),
+                              image: AssetImage("images/food1.jpg"))),
                     ),
                     // text section
                     Expanded(
@@ -216,7 +216,7 @@ class _FoodPageBodyState extends State<FoodPageBody> {
                 borderRadius: BorderRadius.circular(Dimensions.radius30),
                 color: index.isEven ? Color(0xFF69c5df) : Color(0xFF9294cc),
                 image: DecorationImage(
-                    fit: BoxFit.cover, image: AssetImage("images/food0.jpg"))),
+                    fit: BoxFit.cover, image: AssetImage("images/food1.jpg"))),
           ),
           Align(
             alignment: Alignment.bottomCenter,

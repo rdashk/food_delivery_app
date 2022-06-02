@@ -46,7 +46,7 @@ class RecommendedFoodDetail extends StatelessWidget {
             expandedHeight: 300,
             flexibleSpace: FlexibleSpaceBar(
               background: Image.asset(
-                "images/food0.jpg",
+                "images/food1.jpg",
                 width: double.maxFinite,
                 fit: BoxFit.cover,
               ),

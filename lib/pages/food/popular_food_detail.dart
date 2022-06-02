@@ -29,7 +29,7 @@ class PopularFoodDetail extends StatelessWidget {
                 decoration: BoxDecoration(
                     image: DecorationImage(
                         fit: BoxFit.cover,
-                        image: AssetImage("images/food1.jpg"))),
+                        image: AssetImage("images/food5.jpg"))),
               )),
           // icon widgets
           Positioned(
